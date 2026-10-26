@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(to right, #ffe53b, #FF2525);
+    color: #1a0505;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1cm;
+    margin: 0.2cm;
+}
+
+.cartao {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin-top: 40px;
+}
+
+#CartaoGold {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.modo-escuro {
+    background-image: linear-gradient(to right, #b38f00, #801010);
+    color: #ffffff;
+}
+
+#btn-tema {
+    margin-top: 0cm;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#btn-tema:hover {
+    background-color: #45a049;
+}
+
+.Perfil-Usuario {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin-top: 40px;
+}
+
+#FotoPerfil {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.curtido {
+    background-color:#FF2525;
+}
+
+#btn-curtir {
+    margin-top: 0cm;
+    background-image: linear-gradient(to right, #9c93e5, #c7a3d2, #ba8cbe);
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+}
